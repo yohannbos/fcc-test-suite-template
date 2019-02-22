@@ -1,0 +1,12 @@
+h1 {
+top: 0;
+  padding: 0px, 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: grey;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Roboto;
+  color: black;}
+}
