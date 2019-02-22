@@ -14,13 +14,18 @@
         <p id="description">P</p>
 
         <form id="survey-form">
-          <label for="name">Name</label>
-            <input id="name" type="text" required>
-          <label for="email">Email</label>
-            <input id="email" type="email" required>
-          <label for="number">Number</label>
-            <input id="number" type="number" min="1" max="101" required >
-
+          <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="name description" required>
+          <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="email description" required>
+          <label id="number-label" for="number">Number</label>
+            <input id="number" type="number" placeholder="number description" min="1" max="101" required >
+          <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
         </form>
 
 
