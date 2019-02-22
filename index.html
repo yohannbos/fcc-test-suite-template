@@ -11,12 +11,22 @@
 
   <body>
       <h1 id="title">hello, world!</h1>
-        <p id="description"> Test </p>
+        <p id="description">P</p>
 
         <form id="survey-form">
-          <input id="name" type="text" required>
-          <input id="email" type="email" required>
+          <label for="name">Name</label>
+            <input id="name" type="text" required>
+          <label for="email">Email</label>
+            <input id="email" type="email" required>
+          <label for="number">Number</label>
+            <input id="number" type="number" min="1" max="101" required >
+
         </form>
+
+
+
+
+
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
        <script  src="js/index.js"></script>
   </body>
